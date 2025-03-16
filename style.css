@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0;
+     box-sizing: border-box;
+     font-family: "poppins",sans-serif;
+     text-decoration: none;
+     list-style: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12%;
+    background: #000000;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+    &:hover{
+        color: orangered;
+        text-shadow: 0 0 25px orangered;
+        transform: scale(1.1);
+    }
+}
+.logo span{
+    color: orangered;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: ease 0.3s;
+    
+}
+.navbar a:hover,
+.navbar a.active{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+.login{
+    padding: 10px 32px;
+    background-color: white;
+    color: black;
+    border: 2px solid none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.login:hover{
+    background-color: orangered;
+    box-shadow: 0 0 25px orangered;
+    color: white;
+}
+.sect2{
+    width: 100%;
+    height: 100vh;
+    margin-top: 91px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img img{
+    width: 300px;
+    height: 380px;
+    border-radius: 50%;
+    border: 4px solid orangered
+    
+}
+
+con h3{
+    font-size: 100px;
+}
+span{
+    color: orangered;
+    font-size: 40px;
+    font-weight: 600;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+h3{
+    font-weight: 800;
+}
+p{
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1.2;
+    letter-spacing: 1.2;
+}
+
+
+
+.btn1{
+    padding: 10px 15px;
+    background-color: #000000;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3 ease;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.btn2{
+    padding: 10px 15px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid black;
+
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3 ease;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.btn2:hover{
+    background-color: white;
+    color: orangered;
+
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    color: white;
+}
+
+.content{
+    width: 86%;
+    height: 100vh;
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    margin:0 auto;
+
+}
+.content img{
+    height: 400px;
+    width: 350px;
+    border-radius: 50%;
+    border: 5px solid orangered;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.text button{
+    width: 160px;
+    height: 38px;
+    color: orangered;
+    transition: ease-in 0.1s;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    &:hover{
+        color: white;
+        background-color: orangered;
+        border: none;
+    }
+}
+
+.contactme{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+}
+
+.contactme h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top:40px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container input{
+    margin: 20px;
+    height: 30px;
+    width: 30%;
+    font-size: 12px;
+    padding-left: 10px;
+    
+    
+}
+#mesg{
+ width: 30%;
+ padding: 10px;
+
+}
+.btn5{
+   margin-top: 35px;
+  padding: 10px 15px;
+   width: 10%;
+   height: 40px;
+   background-color: #000000;  
+   color: white;
+   font-size: 15px;
+   font-weight: 500;
+   border-radius: 5px;
+}
+.btn5:hover{
+    background-color: white;
+    color: orangered;
+    font-weight: 400;
+}
+#footer{
+    height: 120px;
+    width: 100%;
+    position: relative;
+    background-color:black;
+    display: flex;
+}
+footer h2{
+    display: flex;
+    text-align: center;
+    padding-left: 70vh;
+    padding-top: 40px;
+    color: white;
+}
+ 
+
+
